@@ -1,0 +1,6 @@
+@Nirvana.Data.Web_HostAddress = http://localhost:5287
+
+GET {{Nirvana.Data.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
