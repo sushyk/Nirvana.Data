@@ -10,4 +10,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Nirvana.Data.Application\Nirvana.Data.Application.csproj" />
+    <ProjectReference Include="..\Nirvana.Data.Infrastructure\Nirvana.Data.Infrastructure.csproj" />
+    <ProjectReference Include="..\Nirvana.Data.Presentation\Nirvana.Data.Presentation.csproj" />
+  </ItemGroup>
+
 </Project>
