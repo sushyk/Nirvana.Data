@@ -1,8 +1,3 @@
-
-using Nirvana.Data.Application;
-using Nirvana.Data.Infrastructure;
-using Nirvana.Data.Presentation;
-
 namespace Nirvana.Data.Web;
 
 public class Program
@@ -12,13 +7,7 @@ public class Program
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.
-        builder.Services
-            .AddApplication()
-            .AddInfrastructure()
-            .AddPresentation();
-
-        builder.Services.AddControllers()
-            .AddApplicationPart(typeof(PresentationServiceCollectionExtensions).Assembly);
+        builder.Services.RegisterAllDependencies();
 
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
