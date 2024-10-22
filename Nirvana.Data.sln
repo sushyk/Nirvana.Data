@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nirvana.Data.Web", "Nirvana.Data.Web\Nirvana.Data.Web.csproj", "{9A6C3165-8E50-4929-BF12-AAB50E75CE14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nirvana.Data.Web", "Nirvana.Data.Web\Nirvana.Data.Web.csproj", "{9A6C3165-8E50-4929-BF12-AAB50E75CE14}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{64BAE837-CF38-4990-AC4A-9B1300EDA6AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nirvana.Data.Presentation", "Nirvana.Data.Presentation\Nirvana.Data.Presentation.csproj", "{EE3BEAEE-BC50-4367-BF9D-9EFD4EA2E77F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nirvana.Data.Presentation", "Nirvana.Data.Presentation\Nirvana.Data.Presentation.csproj", "{EE3BEAEE-BC50-4367-BF9D-9EFD4EA2E77F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nirvana.Data.Application", "Nirvana.Data.Application\Nirvana.Data.Application.csproj", "{0E093884-BB39-4CD2-BF32-69D873F7F5CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nirvana.Data.Application", "Nirvana.Data.Application\Nirvana.Data.Application.csproj", "{0E093884-BB39-4CD2-BF32-69D873F7F5CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nirvana.Data.Infrastructure", "Nirvana.Data.Infrastructure\Nirvana.Data.Infrastructure.csproj", "{60AD6653-9B8D-41C7-B80C-44EB4662981D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nirvana.Data.Infrastructure", "Nirvana.Data.Infrastructure\Nirvana.Data.Infrastructure.csproj", "{60AD6653-9B8D-41C7-B80C-44EB4662981D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nirvana.Data.Domain", "Nirvana.Data.Domain\Nirvana.Data.Domain.csproj", "{76397903-8193-4901-9F56-09D53D182F0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nirvana.Data.Domain", "Nirvana.Data.Domain\Nirvana.Data.Domain.csproj", "{76397903-8193-4901-9F56-09D53D182F0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

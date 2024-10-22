@@ -11,9 +11,7 @@ public static class ServiceCollectionExtensions
         services
             .AddApplication()
             .AddInfrastructure()
-            .AddPresentation()
-            .AddControllers()
-            .AddApplicationPart(typeof(PresentationServiceCollectionExtensions).Assembly);
+            .AddPresentation();
 
         return services;
     }
